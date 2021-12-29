@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import {useState,useEffect} from 'react';
 import { connect } from 'react-redux';
 import {useSelector,useDispatch} from 'react-redux';
