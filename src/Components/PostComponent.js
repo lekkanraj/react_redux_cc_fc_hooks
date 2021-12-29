@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { useState } from "react";
-
+import React, { Component }  from 'react';
 const PostComponent=()=>{
     const postsall=useSelector(state=>state.post);
     const posts=Object.keys(postsall).map((key) => [Number(key), postsall[key]]);
